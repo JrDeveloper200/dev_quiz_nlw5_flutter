@@ -1,16 +1,24 @@
-# DevQuiz Flutter - Projeto NlW#5
+# DevQuiz Flutter - Projeto NLW#5
 
-A new Flutter project.
+<img src="https://flutter.dev/assets/flutter-lockup-1caf6476beed76adec3c477586da54de6b552b2f42108ec5bc68dc63bae2df75.png">
 
-## Getting Started
+<h2 align="center"> 
+	🚧  Projeto em Flutter - Parcialmente completo 🚀 Em construção... 🚧
+</h2>
 
-This project is a starting point for a Flutter application.
+Todo projeto foi desenvolvido durante a semana NLW, promovido pela Rocketseat.
 
-A few resources to get you started if this is your first Flutter project:
+Os conhecimentos adquiridos sobre o Flutter são:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+ * [Conceitos de Linguagem Dart](#)
+ * [Orientação a Objetos](#)
+ * [Frameworks híbridos](#)
+ * [Conceito de Programação Declarativa](#)
+ * [Organização de Projetos](#)
+ * [Gerenciamento de Estados](#)
+ * [Conceitos de API REST](#)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Para começar a usar o Flutter, recomendo que consulte:
+
+[documentação online](https://flutter.dev/docs), que oferece tutoriais,
+amostras, orientação sobre desenvolvimento móvel e uma referência completa de API.
