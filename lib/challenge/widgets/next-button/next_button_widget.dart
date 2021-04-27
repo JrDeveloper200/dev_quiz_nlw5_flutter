@@ -7,32 +7,31 @@ class NextButtonWidget extends StatelessWidget {
   final Color backgroundColor;
   final Color fontColor;
   final Color borderColor;
-  // final VoidCallback onTap;
+  final VoidCallback onTap;
 
-  NextButtonWidget({
-    required this.label,
-    required this.backgroundColor,
-    required this.fontColor,
-    required this.borderColor,
-    // required this.onTap
-  });
+  NextButtonWidget(
+      {required this.label,
+      required this.backgroundColor,
+      required this.fontColor,
+      required this.borderColor,
+      required this.onTap});
 
   NextButtonWidget.green({
     required String label,
-    // required VoidCallback onTap,
+    required VoidCallback onTap,
   })   : this.backgroundColor = AppColors.darkGreen,
         this.fontColor = AppColors.white,
         this.borderColor = AppColors.green,
-        // this.onTap = onTap,
+        this.onTap = onTap,
         label = label;
 
-  NextButtonWidget.white({
+  NextButtonWidget.red({
     required String label,
-    // required VoidCallback onTap,
-  })   : this.backgroundColor = AppColors.white,
-        this.fontColor = AppColors.grey,
+    required VoidCallback onTap,
+  })   : this.backgroundColor = AppColors.red,
+        this.fontColor = AppColors.white,
         this.borderColor = AppColors.border,
-        // this.onTap = onTap,
+        this.onTap = onTap,
         label = label;
 
   NextButtonWidget.purple({
@@ -41,7 +40,7 @@ class NextButtonWidget extends StatelessWidget {
   })   : this.backgroundColor = AppColors.purple,
         this.fontColor = AppColors.white,
         this.borderColor = AppColors.purple,
-        // this.onTap = onTap,
+        this.onTap = onTap,
         label = label;
 
   NextButtonWidget.transparent({
@@ -50,7 +49,7 @@ class NextButtonWidget extends StatelessWidget {
   })   : this.backgroundColor = Colors.transparent,
         this.fontColor = AppColors.grey,
         this.borderColor = Colors.transparent,
-        // this.onTap = onTap,
+        this.onTap = onTap,
         label = label;
 
   @override
@@ -66,7 +65,7 @@ class NextButtonWidget extends StatelessWidget {
           ),
           side: BorderSide(color: borderColor),
         ),
-        onPressed: () {}, //onTap,
+        onPressed: onTap,
         child: Text(
           label,
           style: GoogleFonts.notoSans(

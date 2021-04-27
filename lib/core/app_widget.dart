@@ -8,7 +8,7 @@ class AppWidget extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "DevQuiz Flutter",
-      home: ChallengePage(),
+      home: HomePage(),
     );
   }
 }

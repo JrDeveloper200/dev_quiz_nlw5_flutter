@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-
   // # = 0xFF - Caracter reservado na linguagem
-  // 
+  //
   static final Color purple = Color(0xFF8257E5);
   static final Color white = Color(0xFFFFFFFF);
   static final Color black = Color(0xFF514766);
@@ -20,7 +19,7 @@ class AppColors {
 
   //Reds
   static final Color lightRed = Color(0xFFF5E9EC);
-  static final Color red = Color(0xFFE5C5CF);
+  static final Color red = Color(0xFFD60507);
   static final Color darkRed = Color(0xFFCC3750);
 
   //LevelButton
